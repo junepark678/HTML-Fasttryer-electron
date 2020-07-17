@@ -1,0 +1,19 @@
+
+textarea{
+    font: Roboto, sans-serif;
+    font-weight: 100;
+    width:47vw;
+    height: 99vh;
+    display: block;
+    float:left;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    clear: both;
+}
+#viewer{
+    width: 49vw;
+    height: 99vh;
+    display: block;
+    float:right;
+}

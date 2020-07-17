@@ -1,0 +1,24 @@
+{
+  "name": "fasttryer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "electron": "^8.2.0",
+    "electron-builder": "^22.7.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "com.june.web.fast.tryer",
+    "mac": {
+      "type": "distribution",
+      "category": "developer"
+    }
+  }
+}
